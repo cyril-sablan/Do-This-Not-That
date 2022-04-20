@@ -13,6 +13,7 @@ void setup()
   int appHeight = height; //displayHeight
   String orientation = (appWidth >= appHeight ) ? ls : p ; //Ternary Operator, repeats IF-ELSE
   println (DO, orientation );
+  //if () {} else {}
   println(appWidth, appHeight);
   //
   /*Population
