@@ -23,7 +23,6 @@ void setup()
 void draw() 
 {
   GUI_draw();
-  textDraw();
 }//End draw
 //
 void keyPressed() {

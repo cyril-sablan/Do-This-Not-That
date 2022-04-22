@@ -5,4 +5,7 @@ void GUI_draw() {
   if (rectON==true && ellipseON==false) rect(rectDisplayX, rectDisplayY, rectDisplayWidth, rectDisplayHeight); //DIV: Display Rectangle
   //rect(ellipseX, ellipseY, ellipseXDiameter, ellipseYDiameter); //DIV: Display Circle
   if (rectON==false && ellipseON==true) ellipse(x, y, xDiameter, yDiameter);
+  //
+  textDraw();
+  //
 }//End GUI_draw
