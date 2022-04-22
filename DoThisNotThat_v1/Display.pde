@@ -1,3 +1,5 @@
+int appWidth, appHeight;
+//
 void displayOrientation() {
   //Display Orientation 
   println(width, height, displayWidth, displayHeight);
