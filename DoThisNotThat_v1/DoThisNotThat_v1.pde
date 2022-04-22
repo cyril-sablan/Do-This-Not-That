@@ -17,17 +17,12 @@ void setup()
   size(1000, 800); //fullScreeb(); //displayWidth, displayHeight
   displayOrientation();
   population();
-  textSetup();
+  textSetUp();
 }//End setup
 //
 void draw() 
 {
-  background(black);
-  rect(buttonX1, buttonY1, buttonWidth1, buttonHeight1); //DIV: "Click Me"
-  rect(buttonX2, buttonY2, buttonWidth2, buttonHeight2); //DIV: "Or Me"
-  if (rectON==true && ellipseON==false) rect(rectDisplayX, rectDisplayY, rectDisplayWidth, rectDisplayHeight); //DIV: Display Rectangle
-  //rect(ellipseX, ellipseY, ellipseXDiameter, ellipseYDiameter); //DIV: Display Circle
-  if (rectON==false && ellipseON==true) ellipse(x, y, xDiameter, yDiameter);
+ 
   //
   //Text Draw, General Code for any text
   //Note: visualization rectangle is in main program
