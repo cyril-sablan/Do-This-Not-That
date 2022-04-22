@@ -16,8 +16,6 @@ void setup()
   //Display Geometry
   size(1000, 800); //fullScreeb(); //displayWidth, displayHeight
   displayOrientation();
-  
-  
   //
   //Population
   buttonX1 = appWidth*1/7;
